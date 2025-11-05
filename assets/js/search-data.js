@@ -24,6 +24,13 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{
+        id: 'social-cv',
+        title: 'Curriculum Vitae',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/gejin_cv_04Nov2025.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
