@@ -1,0 +1,15 @@
+"yang":
+  - firstname: ["Anbang", "A."]
+    url: https://www.linkedin.com/in/anbang-yang/
+
+"wang":
+  - firstname: ["Yao", "Y."]
+    url: https://engineering.nyu.edu/faculty/yao-wang
+
+"rizzo":
+  - firstname: ["JR.", "John-Ross", "JohnRoss"]
+    url: https://med.nyu.edu/faculty/johnross-rizzo
+
+"feng":
+  - firstname: ["Chen", "C."]
+    url: https://engineering.nyu.edu/faculty/chen-feng
