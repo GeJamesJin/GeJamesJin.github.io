@@ -1,0 +1,10 @@
+github_users:
+  - jamesjin0516
+
+repo_description_lines_max: 2
+
+github_repos:
+  - ai4ce/LoQI-VPR
+  - Idanlau/density_decoding
+  - Idanlau/Art_Price_Prediction_Model
+  - jjl9895/PortfolioOptimizer

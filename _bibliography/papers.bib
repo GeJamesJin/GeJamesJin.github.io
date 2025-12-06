@@ -1,0 +1,27 @@
+---
+---
+
+@InProceedings{jin2025loqivpr,
+  title={Distillation Improves Visual Place Recognition for Low Quality Images},
+  author={Yang*, A. and Jin*, G. and Huang, J. and Wang, Y. and Rizzo, JR. and Feng†, C.},
+  abstract={Real-world applications of Visual Place Recognition (VPR) often rely on cloud computing, where query images or videos are transmitted elsewhere for visual localization. However, limited network bandwidth forces a reduction in image quality, which degrades global image descriptors and consequently VPR accuracy. We address this issue at the descriptor extraction level with a knowledge-distillation framework that transfers feature representations from high-quality images to low-quality ones, allowing VPR methods to produce more discriminative descriptors from the latter. Our approach leverages three complementary loss functions ---- the Inter-channel Correlation Knowledge Distillation (ICKD) loss, Mean Squared Error (MSE) loss, and a weakly supervised Triplet loss ----- to guide a student network in approximating the high-quality features produced by a teacher network. Extensive experiments on multiple VPR methods and datasets subjected to JPEG compression, resolution reduction, and video quantization demonstrate significant improvements in recall rates. Furthermore, our work fills a gap in the literature by exploring the impact of video-based data on VPR performance, thereby contributing to more reliable place recognition in resource-constrained environments.},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+  year={2025},
+  month={October},
+  website={https://ai4ce.github.io/LoQI-VPR/},
+  annotation={* Equal contribution † Corresponding author},
+  preview={LoQI-VPR_teaser.png},
+  selected={true}
+}
+
+@InProceedings{lau2026adaptstformer,
+  title={Flexible and Efficient Spatio-Temporal Transformer for Sequential Visual Place Recognition},
+  author={Lau, Y. and Chen, C. and Jin, G. and Feng†, C.},
+  abstract={Sequential Visual Place Recognition (Seq-VPR) leverages transformers to capture spatio-temporal features effectively; however, existing approaches prioritize performance at the expense of flexibility and efficiency. In practice, a transformer-based Seq-VPR model should be flexible to the number of frames per sequence (seq-length), deliver fast inference, and have low memory usage to meet real-time constraints. To our knowledge, no existing transformer-based Seq-VPR method achieves both flexibility and efficiency. To address this gap, we propose Adapt-STformer, a Seq-VPR method built around our novel Recurrent Deformable Transformer Encoder (Recurrent-DTE), which uses an iterative recurrent mechanism to fuse information from multiple sequential frames. This design naturally supports variable seq-lengths, fast inference, and low memory usage. Experiments on the Nordland, Oxford, and NuScenes datasets show that Adapt-STformer boosts recall by up to 17% while reducing sequence extraction time by 36% and lowering memory usage by 35% compared to the second-best baseline.},
+  booktitle={Proceedings of the IEEE International Conference on Robotics & Automation},
+  year={2026},
+  month={June},
+  annotation={† Corresponding author},
+  preview={Adapt-STformer_teaser.jpg},
+  selected={true}
+}
