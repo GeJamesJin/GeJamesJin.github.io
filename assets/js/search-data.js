@@ -28,7 +28,7 @@ ninja.data = [{
         title: 'Curriculum Vitae',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/gejin_cv_04Nov2025.pdf", "_blank");
+          window.open("/assets/pdf/gejin_cv_30Nov2025.pdf", "_blank");
         },
       },{
         id: 'social-email',
